@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'IBMThin';
+    src: url('/webcake/assets/font/IBMPlexSerif-Regular.ttf');
+}
+
+.full-screen{
+    height: 100vh;
+}
+
+.hero{
+    background-image: url('/webcake/assets/img/chocolate-8782769_960_720.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
